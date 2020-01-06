@@ -3,21 +3,22 @@ require_relative 'lib/rocky_rtv/version'
 Gem::Specification.new do |spec|
   spec.name          = "rocky_rtv"
   spec.version       = RockyRtv::VERSION
-  spec.authors       = ["TODO: Write your name"]
+  spec.authors       = ["Rohit Parulkar"]
   spec.email         = ["rohit.parulkar@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = "A ruby gem for RockTheVote's Rocky API. Documentation: https://rock-the-vote.github.io/Voter-Registration-Tool-API-Docs/"
+  # spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.homepage      = "https://github.com/robertparker/rocky_rtv"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
   spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
-  spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+  spec.metadata["source_code_uri"] = "https://github.com/robertparker/rocky_rtv"
+  # spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
 
+  spec.add_dependency "httparty"
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
   spec.files         = Dir.chdir(File.expand_path('..', __FILE__)) do

@@ -1,6 +1,7 @@
+require "httparty"
 require "rocky_rtv/version"
+require "rocky_rtv/client"
 
-module RockyRtv
+module RockyRTV
   class Error < StandardError; end
-  # Your code goes here...
 end
