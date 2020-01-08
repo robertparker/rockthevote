@@ -42,7 +42,7 @@ DEPENDENCIES
   irb
   rake (~> 12.0)
   rocky_rtv!
-  rspec (~> 3.0)
+  rspec
 
 BUNDLED WITH
    2.1.2

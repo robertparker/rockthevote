@@ -1,9 +1,5 @@
-RSpec.describe RockyRtv do
+RSpec.describe RockyRTV do
   it "has a version number" do
-    expect(RockyRtv::VERSION).not_to be nil
-  end
-
-  it "does something useful" do
-    expect(false).to eq(true)
+    expect(RockyRTV::VERSION).not_to be nil
   end
 end

@@ -1,3 +1,4 @@
+require_relative '../lib/rocky_rtv'
 require "bundler/setup"
 require "rocky_rtv"
 

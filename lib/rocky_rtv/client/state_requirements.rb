@@ -5,7 +5,9 @@ module RockyRTV
 
 			def state_requirements(options = {})
 				response = self.class.get("/state_requirements.json", { query: options })
-				response.parsed_response
+				body = response.parsed_response
+				body.define_singleton_method(:_response) { response }
+				return body
 			end
 		
 		end
