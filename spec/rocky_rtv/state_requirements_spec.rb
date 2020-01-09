@@ -13,5 +13,10 @@ RSpec.describe RockyRTV::Client::StateRequirements do
 		expect(response._response.headers).to include("content-type")
 	end
 
+	it "should raise an ArgumentError if an int zip code is supplied" do
+		expect{client.state_requirements("home_zip_code": 10009)}.to raise_error(ArgumentError)
+
+	end
+
 
 end
