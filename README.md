@@ -26,7 +26,7 @@ Or install it yourself as:
 
 ### Usage
 
-### Initialization and Configuration
+#### Initialization and Configuration
 
 Some methods (get_state_requirements) do not require an access token.
 
