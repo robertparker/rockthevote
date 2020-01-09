@@ -1,5 +1,9 @@
-# RockyRTV
+# rocky_rtv
 
+[![Build Status](https://travis-ci.com/robertparker/rocky_rtv.svg?branch=master)]https://travis-ci.com/robertparker/rocky_rtv.svg?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/robertparker/rocky_rtv/badge.svg?branch=master)](https://coveralls.io/github/robertparker/rocky_rtv?branch=master)
+
+A gem for the 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/rocky_rtv`. To experiment with that code, run `bin/console` for an interactive prompt.
 
 TODO: Delete this and the text above, and describe your gem
@@ -9,7 +13,7 @@ TODO: Delete this and the text above, and describe your gem
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'rocky_rtv'
+gem 'rocky_rtv', :git => 'git@github.com:robertparker/rocky_rtv.git'
 ```
 
 And then execute:
@@ -18,7 +22,8 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install rocky_rtv
+	$ gem install specific_install
+    $ gem specific_install https://github.com/robertparker/rocky_rtv
 
 ## Usage
 
