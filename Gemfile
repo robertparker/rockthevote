@@ -8,4 +8,5 @@ gem "irb", require: false
 
 group :test do
 	gem 'rspec'
+	gem 'coveralls', require: false
 end
