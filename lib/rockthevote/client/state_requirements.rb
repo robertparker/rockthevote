@@ -1,4 +1,4 @@
-module RockyRTV
+module Rocky
 	class Client
 
 		module StateRequirements

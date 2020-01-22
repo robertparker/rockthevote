@@ -2,6 +2,6 @@ require "httparty"
 require "rockthevote/version"
 require "rockthevote/client"
 
-module RockyRTV
+module Rocky
   class Error < StandardError; end
 end

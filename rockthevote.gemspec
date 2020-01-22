@@ -2,7 +2,7 @@ require_relative 'lib/rockthevote/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "rockthevote"
-  spec.version       = RockyRTV::VERSION
+  spec.version       = Rocky::VERSION
   spec.authors       = ["Rohit Parulkar"]
   spec.email         = ["rohit.parulkar@gmail.com"]
 

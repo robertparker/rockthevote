@@ -1,8 +1,8 @@
 require 'spec_helper'
 
-RSpec.describe RockyRTV::Client::StateRequirements do
+RSpec.describe Rocky::Client::StateRequirements do
 	
-	let(:client) { RockyRTV::Client.new() }
+	let(:client) { Rocky::Client.new() }
 	let(:response) { client.state_requirements("home_zip_code": "10009", "lang": "en") }
 
 	it "parses data correctly" do

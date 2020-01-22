@@ -1,10 +1,10 @@
 require "rockthevote/client/state_requirements"
 
-module RockyRTV
+module Rocky
 
 	class Client
 		include HTTParty
-		include RockyRTV::Client::StateRequirements
+		include Rocky::Client::StateRequirements
 		base_uri "https://register.rockthevote.com/api/v4"
 		format :json
 
