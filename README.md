@@ -1,4 +1,4 @@
-# rocky_rtv
+# rockthevote
 
 [![Build Status](https://travis-ci.org/robertparker/rocky_rtv.svg?branch=master)](https://travis-ci.org/robertparker/rocky_rtv)
 [![Coverage Status](https://coveralls.io/repos/github/robertparker/rocky_rtv/badge.svg?branch=master)](https://coveralls.io/github/robertparker/rocky_rtv?branch=master)
@@ -12,7 +12,7 @@ Supports Ruby 2.1.2 or greater.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'rocky_rtv', :git => 'git@github.com:robertparker/rocky_rtv.git'
+gem 'rockthevote', :git => 'git@github.com:robertparker/rockthevote.git'
 ```
 
 And then execute:
@@ -32,10 +32,10 @@ Some methods (get_state_requirements) do not require an access token.
 
 ```ruby
 # Intialize a client without an access token
-client = RockyRTV::Client.new(access_token: "your-access-token")
+client = Rocky::Client.new(access_token: "your-access-token")
 
 # Initialize a client without an access token
-client = RockyRTV::Client.new()
+client = Rocky::Client.new()
 ```
 
 #### Making a Request
@@ -65,7 +65,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/robertparker/rocky_rtv. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/robertparker/rocky_rtv/blob/master/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at https://github.com/robertparker/rockthevote. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/robertparker/rocky_rtv/blob/master/CODE_OF_CONDUCT.md).
 
 
 ## License
@@ -74,4 +74,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the RockyRTV project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/rocky_rtv/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the rockthevote project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/rocky_rtv/blob/master/CODE_OF_CONDUCT.md).
