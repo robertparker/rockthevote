@@ -1,4 +1,4 @@
-require "rocky_rtv/client/state_requirements"
+require "rockthevote/client/state_requirements"
 
 module RockyRTV
 

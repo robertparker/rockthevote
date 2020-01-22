@@ -1,6 +1,6 @@
-require_relative '../lib/rocky_rtv'
+require_relative '../lib/rockthevote'
 require "bundler/setup"
-require "rocky_rtv"
+require "rockthevote"
 require 'coveralls'
 
 Coveralls.wear!

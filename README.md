@@ -1,7 +1,7 @@
 # rockthevote
 
-[![Build Status](https://travis-ci.org/robertparker/rocky_rtv.svg?branch=master)](https://travis-ci.org/robertparker/rocky_rtv)
-[![Coverage Status](https://coveralls.io/repos/github/robertparker/rocky_rtv/badge.svg?branch=master)](https://coveralls.io/github/robertparker/rocky_rtv?branch=master)
+[![Build Status](https://travis-ci.org/robertparker/rockthevote.svg?branch=master)](https://travis-ci.org/robertparker/rockthevote)
+[![Coverage Status](https://coveralls.io/repos/github/robertparker/rockthevote/badge.svg?branch=master)](https://coveralls.io/github/robertparker/rockthevote?branch=master)
 
 Ruby wrapper for the RocktheVote's Online Voter Registration API, Rocky. See also the full [API documentation](https://rock-the-vote.github.io/Voter-Registration-Tool-API-Docs/). This API allows partners to prepare voter registration forms specific to a voter's state that can be printed, signed, and mailed. 
 
@@ -22,7 +22,7 @@ And then execute:
 Or install it yourself as:
 
 	$ gem install specific_install
-    $ gem specific_install https://github.com/robertparker/rocky_rtv
+    $ gem specific_install https://github.com/robertparker/rockthevote
 
 ### Usage
 
@@ -65,7 +65,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/robertparker/rockthevote. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/robertparker/rocky_rtv/blob/master/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at https://github.com/robertparker/rockthevote. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/robertparker/rockthevote/blob/master/CODE_OF_CONDUCT.md).
 
 
 ## License
@@ -74,4 +74,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the rockthevote project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/rocky_rtv/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the rockthevote project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/rockthevote/blob/master/CODE_OF_CONDUCT.md).
