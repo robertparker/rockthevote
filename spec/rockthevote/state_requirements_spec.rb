@@ -2,8 +2,8 @@ require 'spec_helper'
 
 RSpec.describe Rocky::Client::StateRequirements do
 	
-	let(:client) { Rocky::Client.new() }
-	let(:response) { client.state_requirements("home_zip_code": "10009", "lang": "en") }
+	let(:client) { Rocky::Client.new(env="staging") }
+	let(:response) { client.get_state_requirements("home_zip_code": "10009", "lang": "en") }
 
 	it "parses data correctly" do
 		expect(response.class).to eq(Hash)
@@ -14,7 +14,7 @@ RSpec.describe Rocky::Client::StateRequirements do
 	end
 
 	it "should raise an ArgumentError if an int zip code is supplied" do
-		expect{client.state_requirements("home_zip_code": 10009)}.to raise_error(ArgumentError)
+		expect{client.get_state_requirements("home_zip_code": 10009)}.to raise_error(ArgumentError)
 
 	end
 

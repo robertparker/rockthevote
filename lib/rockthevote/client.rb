@@ -9,10 +9,11 @@ module Rocky
 		include Rocky::Client::Registrations
 		format :json
 
-		def initialize(api_key = nil, api_version=nil, env=nil)
-			@api_key = api_key || ENV["ROCKY_API_KEY"]
-			@api_version = api_version || "4"
-			@env = env || "production"
+		def initialize(env, api_key=nil, api_version=nil)
+			@env ||= "staging"
+			@api_key ||= ENV["ROCKY_API_KEY"]
+			@api_version ||= "4"
+
 			if env == "production"
 				url_prefix = "register.rockthevote.com"
 			elsif env == "staging"
