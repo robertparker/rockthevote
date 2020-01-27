@@ -12,17 +12,16 @@ Supports Ruby 2.1.2 or greater.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'rockthevote', :git => 'git@github.com:robertparker/rockthevote.git'
+gem 'rockthevote'
 ```
 
 And then execute:
 
     $ bundle install
 
-Or install it yourself as:
+Or install it yourself using:
 
-	$ gem install specific_install
-    $ gem specific_install https://github.com/robertparker/rockthevote
+	$ gem install rockthevote
 
 ### Usage
 

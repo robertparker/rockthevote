@@ -6,13 +6,13 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Rohit Parulkar"]
   spec.email         = ["rohit.parulkar@gmail.com"]
 
-  spec.summary       = "A ruby gem for RockTheVote's Rocky API. Documentation: https://rock-the-vote.github.io/Voter-Registration-Tool-API-Docs/"
+  spec.summary       = "A ruby gem for RockTheVote's Rocky API."
   # spec.description   = %q{TODO: Write a longer description or delete this line.}
   spec.homepage      = "https://github.com/robertparker/rockthevote"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
+  spec.metadata["allowed_push_host"] = "https://rubygems.org/"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/robertparker/rockthevote"
