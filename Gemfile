@@ -10,3 +10,4 @@ group :test do
 	gem 'rspec'
 	gem 'coveralls', require: false
 end
+gem "sorbet-runtime", "~> 0.5.5316"

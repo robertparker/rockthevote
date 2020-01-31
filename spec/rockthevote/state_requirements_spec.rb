@@ -1,3 +1,4 @@
+# typed: false
 require 'spec_helper'
 
 RSpec.describe Rocky::Client::StateRequirements do
@@ -13,8 +14,8 @@ RSpec.describe Rocky::Client::StateRequirements do
 		expect(response._response.headers).to include("content-type")
 	end
 
-	it "should raise an ArgumentError if an int zip code is supplied" do
-		expect{client.get_state_requirements("home_zip_code": 10009)}.to raise_error(ArgumentError)
+	it "should raise a TypeError if an int zip code is supplied" do
+		expect{client.get_state_requirements("home_zip_code": 10009)}.to raise_error(TypeError)
 
 	end
 

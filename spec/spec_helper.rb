@@ -1,3 +1,4 @@
+# typed: false
 require_relative '../lib/rockthevote'
 require "bundler/setup"
 require "rockthevote"

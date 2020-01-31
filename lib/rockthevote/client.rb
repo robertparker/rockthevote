@@ -1,3 +1,4 @@
+# typed: true
 require "rockthevote/client/state_requirements"
 require "rockthevote/client/registrations"
 

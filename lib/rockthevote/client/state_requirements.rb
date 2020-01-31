@@ -1,13 +1,14 @@
+# typed: false
+require "sorbet-runtime"
 module Rocky
 	class Client
 
 		module StateRequirements
+			extend T::Sig
 
-			def get_state_requirements(options = {})
-				if options[:home_zip_code] != options[:home_zip_code].to_s
-					raise ArgumentError.new("home_zip_code must be a string.")
-				end
-				return self.perform_get_request("/state_requirements.json", options)
+			def get_state_requirements(**opts)
+				T.let(opts[:home_zip_code], T.nilable(String))
+				return self.perform_get_request("/state_requirements.json", opts)
 			end
 		
 		end
