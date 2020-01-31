@@ -27,13 +27,13 @@ Or install it yourself using:
 
 #### Initialization and Configuration
 
-Some methods (get_state_requirements) do not require an access token.
+Some methods (get_state_requirements) do not require an API key.
 
 ```ruby
-# Intialize a client without an access token
-client = Rocky::Client.new(access_token: "your-access-token")
+# Intialize a client without an API key
+client = Rocky::Client.new(api_key: "your-api-key")
 
-# Initialize a client without an access token
+# Initialize a client without an API key
 client = Rocky::Client.new()
 ```
 
